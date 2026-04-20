@@ -130,3 +130,23 @@ api-security-lab/
 │   ├── qualys/
 │   ├── aikido/
 │   └── wallarm/
+
+---
+
+## 📸 Evidence & Scan Results
+
+### 🔍 Qualys – Vulnerability Detections
+![Qualys Detections](./screenshots/qualys/detections.png)
+
+### 🔍 Qualys – Key Finding (Rate Limit Issue)
+![Qualys Finding](./screenshots/qualys/findings-summary.png)
+
+---
+
+### 🛡️ Aikido – Critical Security Issue
+![Aikido CSP Issue](./screenshots/aikido/issue-details.png)
+
+---
+
+### 🚨 Wallarm – Vulnerable Component Detection
+![Wallarm Vulnerability](./screenshots/wallarm/vulnerabilities.png)
