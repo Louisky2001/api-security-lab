@@ -103,5 +103,16 @@ https://www.apisecuniversity.com/api-tools-and-resources
 - Security Recommendations & Reporting
 
 ---
+---
 
+## 📸 Evidence & Screenshots
+
+### 🔍 Qualys Scan Results
+![Qualys Findings](./screenshots/qualys/detections.png)
+
+### 🛡️ Aikido Scan Results
+![Aikido Findings](./screenshots/aikido/vulnerabilities.png)
+
+### 🚨 Wallarm Scan Results
+![Wallarm Findings](./screenshots/wallarm/vulnerabilities.png)
 ## 📁 Project Structure
