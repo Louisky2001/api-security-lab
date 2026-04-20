@@ -115,4 +115,18 @@ https://www.apisecuniversity.com/api-tools-and-resources
 
 ### 🚨 Wallarm Scan Results
 ![Wallarm Findings](./screenshots/wallarm/vulnerabilities.png)
+
 ## 📁 Project Structure
+
+api-security-lab/
+├── README.md
+├── reports/
+│   ├── qualys-report.md
+│   ├── aikido-report.md
+│   └── wallarm-report.md
+├── findings/
+│   └── key-findings.md
+├── screenshots/
+│   ├── qualys/
+│   ├── aikido/
+│   └── wallarm/
