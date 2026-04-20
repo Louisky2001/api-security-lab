@@ -163,3 +163,11 @@ api-security-lab/
 - Compared the strengths of Qualys, Aikido, and Wallarm for API security analysis
 - Documented practical remediation steps to improve API security posture
 - Demonstrated hands-on experience in API security testing, analysis, and reporting
+
+- ## ▶️ How to Reproduce
+
+1. Select a target API from APIsec University resources
+2. Import or configure the API target in Qualys, Aikido, and Wallarm
+3. Run security scans in each tool
+4. Review findings such as missing headers, TLS issues, vulnerable components, and configuration weaknesses
+5. Compare results across tools and document remediation recommendations
