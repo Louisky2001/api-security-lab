@@ -110,28 +110,6 @@ https://www.apisecuniversity.com/api-tools-and-resources
 ---
 ---
 
-## 📸 Evidence & Scan Results
-
-### 🔍 Qualys – Vulnerability Detections
-![Qualys Detections](./screenshots/qualys/detections.png)
-
-Shows the Qualys detections view highlighting identified API security issues, including missing rate-limit headers and TLS-related findings.
-
-### 🔍 Qualys – Key Finding
-![Qualys Finding](./screenshots/qualys/rate-limit.png)
-
-Shows the rate-limit header issue and the remediation guidance provided during the assessment.
-
-### 🛡️ Aikido – Critical Security Issue
-![Aikido CSP Issue](./screenshots/aikido/csp-issue.png)
-
-Shows Aikido flagging a critical Content Security Policy header issue, increasing the risk of XSS and client-side attacks.
-
-### 🚨 Wallarm – Vulnerable Component Detection
-![Wallarm Vulnerability](./screenshots/wallarm/vulnerable-bind.png)
-
-Shows Wallarm identifying a vulnerable software component with associated CVEs and recommended patching action.
-
 ## 📁 Project Structure
 
 api-security-lab/
