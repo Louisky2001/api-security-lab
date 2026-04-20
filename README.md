@@ -1,3 +1,8 @@
+## 👤 Author
+
+Louis Okperiruisi  
+Cybersecurity Analyst | SOC | API Security | AI Security
+
 # 🔐 API Security Lab
 
 ## 📌 Overview
