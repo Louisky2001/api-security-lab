@@ -155,3 +155,11 @@ api-security-lab/
 
 ### 🚨 Wallarm – Vulnerable Component Detection
 ![Wallarm Vulnerability](./screenshots/wallarm/vulnerabilities.png)
+
+## 📈 Project Outcome
+
+- Identified multiple API security vulnerabilities across test environments
+- Detected critical misconfigurations, including missing security headers and vulnerable components
+- Compared the strengths of Qualys, Aikido, and Wallarm for API security analysis
+- Documented practical remediation steps to improve API security posture
+- Demonstrated hands-on experience in API security testing, analysis, and reporting
