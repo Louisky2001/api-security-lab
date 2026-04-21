@@ -1,3 +1,9 @@
+
+When that happens, GitHub treats the image markdown as plain text instead of rendering it.
+
+Here is a clean **final README code** with the screenshot section placed correctly and the code block closed properly.
+
+```markdown
 # 🔐 API Security Lab
 
 ## 👤 Author
@@ -104,49 +110,45 @@ Target APIs were sourced from:
 
 ### Aikido Security Platform
 
-#### Dashboard
-![Aikido Dashboard](screenshots/aikido/dashboard.png)
+**Dashboard**  
+![Aikido Dashboard](./screenshots/aikido/dashboard.png)
 
-#### Findings Summary
-![Aikido Findings Summary](screenshots/aikido/findings-summary.png)
+**Findings Summary**  
+![Aikido Findings Summary](./screenshots/aikido/findings-summary.png)
 
-#### Issue Details
-![Aikido Issue Details](screenshots/aikido/issue-details.png)
+**Issue Details**  
+![Aikido Issue Details](./screenshots/aikido/issue-details.png)
 
-#### Vulnerabilities
-![Aikido Vulnerabilities](screenshots/aikido/vulnerabilities.png)
-
----
+**Vulnerabilities**  
+![Aikido Vulnerabilities](./screenshots/aikido/vulnerabilities.png)
 
 ### Qualys TotalAppSec
 
-#### API Target
-![Qualys API Target](screenshots/qualys/api-target.png)
+**API Target**  
+![Qualys API Target](./screenshots/qualys/api-target.png)
 
-#### Detections
-![Qualys Detections](screenshots/qualys/detections.png)
+**Detections**  
+![Qualys Detections](./screenshots/qualys/detections.png)
 
-#### Findings Summary
-![Qualys Findings Summary](screenshots/qualys/findings-summary.png)
+**Findings Summary**  
+![Qualys Findings Summary](./screenshots/qualys/findings-summary.png)
 
-#### Scan Setup
-![Qualys Scan Setup](screenshots/qualys/scan-setup.png)
-
----
+**Scan Setup**  
+![Qualys Scan Setup](./screenshots/qualys/scan-setup.png)
 
 ### Wallarm API Security
 
-#### Dashboard
-![Wallarm Dashboard](screenshots/wallarm/dashboard.png)
+**Dashboard**  
+![Wallarm Dashboard](./screenshots/wallarm/dashboard.png)
 
-#### Findings Summary
-![Wallarm Findings Summary](screenshots/wallarm/findings-summary.png)
+**Findings Summary**  
+![Wallarm Findings Summary](./screenshots/wallarm/findings-summary.png)
 
-#### Issue Details
-![Wallarm Issue Details](screenshots/wallarm/issue-details.png)
+**Issue Details**  
+![Wallarm Issue Details](./screenshots/wallarm/issue-details.png)
 
-#### Vulnerabilities
-![Wallarm Vulnerabilities](screenshots/wallarm/vulnerabilities.png)
+**Vulnerabilities**  
+![Wallarm Vulnerabilities](./screenshots/wallarm/vulnerabilities.png)
 
 ---
 
