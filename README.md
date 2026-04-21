@@ -108,16 +108,20 @@ Target APIs were sourced from:
 **Dashboard**  
 ![Aikido Dashboard](./screenshots/aikido/dashboard.png)
 
-**Findings Summary**  
-![Aikido Findings Summary](./screenshots/aikido/findings-summary.png)
+**Vulnerabilities**  
+![Aikido Vulnerabilities](./screenshots/aikido/vulnerabilities.png)
 
 **Issue Details**  
 ![Aikido Issue Details](./screenshots/aikido/issue-details.png)
 
-**Vulnerabilities**  
-![Aikido Vulnerabilities](./screenshots/aikido/vulnerabilities.png)
+**Findings Summary**  
+![Aikido Findings Summary](./screenshots/aikido/findings-summary.png)
+
 
 ### Qualys TotalAppSec
+
+**Scan Setup**  
+![Qualys Scan Setup](./screenshots/qualys/scan-setup.png)
 
 **API Target**  
 ![Qualys API Target](./screenshots/qualys/api-target.png)
@@ -128,22 +132,20 @@ Target APIs were sourced from:
 **Findings Summary**  
 ![Qualys Findings Summary](./screenshots/qualys/findings-summary.png)
 
-**Scan Setup**  
-![Qualys Scan Setup](./screenshots/qualys/scan-setup.png)
 
 ### Wallarm API Security
 
 **Dashboard**  
 ![Wallarm Dashboard](./screenshots/wallarm/dashboard.png)
 
-**Findings Summary**  
-![Wallarm Findings Summary](./screenshots/wallarm/findings-summary.png)
+**Vulnerabilities**  
+![Wallarm Vulnerabilities](./screenshots/wallarm/vulnerabilities.png)
 
 **Issue Details**  
 ![Wallarm Issue Details](./screenshots/wallarm/issue-details.png)
 
-**Vulnerabilities**  
-![Wallarm Vulnerabilities](./screenshots/wallarm/vulnerabilities.png)
+**Findings Summary**  
+![Wallarm Findings Summary](./screenshots/wallarm/findings-summary.png)
 
 ---
 
