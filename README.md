@@ -17,7 +17,7 @@ The assessment was conducted using:
 - **Wallarm API Security**
 
 Target APIs were sourced from:  
-https://www.apisecuniversity.com/api-tools-and-resources
+[API Security University Tools & Resources](https://www.apisecuniversity.com/api-tools-and-resources)
 
 ---
 
@@ -49,47 +49,41 @@ https://www.apisecuniversity.com/api-tools-and-resources
   - SQL Injection
   - Authorization bypass
 
-✅ **Recommendation:**
+**Recommendation**
 - Enforce consistent validation and security controls across all user-agents
 - Apply strict input validation and output sanitization
-
----
 
 ### 2. TLS Renegotiation Vulnerability
 - Potential man-in-the-middle (MITM) attack vector
 - Weak TLS session handling identified
 
-✅ **Recommendation:**
+**Recommendation**
 - Enable TLS secure renegotiation
 - Enforce TLS 1.2 / TLS 1.3 only
-
----
 
 ### 3. Missing Rate-Limiting Headers
 - No `X-RateLimit-*` headers found
 - Risk of API abuse and denial-of-service behavior
 
-⚠️ **Impact:**
+**Impact**
 - Poor API usage control
 - Higher risk of HTTP 429-related failures
 - Weak visibility for clients consuming the API
 
-✅ **Recommendation:**
+**Recommendation**
 - Implement rate limiting using:
-  - API Gateway (NGINX, Kong, AWS API Gateway)
-  - Middleware (FastAPI + slowapi)
+  - API Gateway such as NGINX, Kong, or AWS API Gateway
+  - Middleware such as FastAPI + slowapi
 - Add standard headers:
   - `X-RateLimit-Limit`
   - `X-RateLimit-Remaining`
   - `X-RateLimit-Reset`
 
----
-
 ### 4. Security Misconfiguration (Wallarm Findings)
 - Improper configuration exposed internal resources
 - Sensitive components and interfaces were accessible
 
-✅ **Recommendation:**
+**Recommendation**
 - Secure deployment configurations
 - Restrict unnecessary endpoints and exposed services
 - Apply proper access control and patch vulnerable components
@@ -98,11 +92,61 @@ https://www.apisecuniversity.com/api-tools-and-resources
 
 ## 📊 Tools Comparison
 
-| Tool    | Strength                         | Key Finding |
-|---------|----------------------------------|-------------|
-| Qualys  | Deep vulnerability scanning      | TLS and endpoint inconsistencies |
-| Aikido  | Developer-focused issue analysis | Missing rate limits and browser security gaps |
-| Wallarm | API threat detection             | Security misconfiguration and vulnerable components |
+| Tool | Strength | Key Finding |
+|------|----------|-------------|
+| Qualys | Deep vulnerability scanning | TLS and endpoint inconsistencies |
+| Aikido | Developer-focused issue analysis | Missing rate limits and browser security gaps |
+| Wallarm | API threat detection | Security misconfiguration and vulnerable components |
+
+---
+
+## 🖼️ Screenshots
+
+### Aikido Security Platform
+
+#### Dashboard
+![Aikido Dashboard](screenshots/aikido/dashboard.png)
+
+#### Findings Summary
+![Aikido Findings Summary](screenshots/aikido/findings-summary.png)
+
+#### Issue Details
+![Aikido Issue Details](screenshots/aikido/issue-details.png)
+
+#### Vulnerabilities
+![Aikido Vulnerabilities](screenshots/aikido/vulnerabilities.png)
+
+---
+
+### Qualys TotalAppSec
+
+#### API Target
+![Qualys API Target](screenshots/qualys/api-target.png)
+
+#### Detections
+![Qualys Detections](screenshots/qualys/detections.png)
+
+#### Findings Summary
+![Qualys Findings Summary](screenshots/qualys/findings-summary.png)
+
+#### Scan Setup
+![Qualys Scan Setup](screenshots/qualys/scan-setup.png)
+
+---
+
+### Wallarm API Security
+
+#### Dashboard
+![Wallarm Dashboard](screenshots/wallarm/dashboard.png)
+
+#### Findings Summary
+![Wallarm Findings Summary](screenshots/wallarm/findings-summary.png)
+
+#### Issue Details
+![Wallarm Issue Details](screenshots/wallarm/issue-details.png)
+
+#### Vulnerabilities
+![Wallarm Vulnerabilities](screenshots/wallarm/vulnerabilities.png)
 
 ---
 
@@ -129,12 +173,18 @@ api-security-lab/
 ├── findings/
 │   └── key-findings.md
 ├── screenshots/
+│   ├── aikido/
+│   │   ├── dashboard.png
+│   │   ├── findings-summary.png
+│   │   ├── issue-details.png
+│   │   └── vulnerabilities.png
 │   ├── qualys/
 │   │   ├── api-target.png
-│   │   ├── scan-setup.png
 │   │   ├── detections.png
-│   │   └── findings-summary.png
-│   ├── aikido/
-│   │   └── issue-details.png
+│   │   ├── findings-summary.png
+│   │   └── scan-setup.png
 │   └── wallarm/
+│       ├── dashboard.png
+│       ├── findings-summary.png
+│       ├── issue-details.png
 │       └── vulnerabilities.png
