@@ -115,18 +115,6 @@ https://www.apisecuniversity.com/api-tools-and-resources
 - Findings Documentation
 - Security Recommendations and Reporting
 
-
-## A few important checks before you save
-
-Make sure these image files actually exist with these exact names:
-
-```text
-screenshots/qualys/api-target.png
-screenshots/qualys/scan-setup.png
-screenshots/qualys/detections.png
-screenshots/qualys/findings-summary.png
-screenshots/aikido/issue-details.png
-screenshots/wallarm/vulnerabilities.png
 ---
 
 ## 📁 Project Structure
@@ -142,5 +130,11 @@ api-security-lab/
 │   └── key-findings.md
 ├── screenshots/
 │   ├── qualys/
+│   │   ├── api-target.png
+│   │   ├── scan-setup.png
+│   │   ├── detections.png
+│   │   └── findings-summary.png
 │   ├── aikido/
+│   │   └── issue-details.png
 │   └── wallarm/
+│       └── vulnerabilities.png
