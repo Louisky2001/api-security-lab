@@ -1,9 +1,4 @@
-
-When that happens, GitHub treats the image markdown as plain text instead of rendering it.
-
-Here is a clean **final README code** with the screenshot section placed correctly and the code block closed properly.
-
-```markdown
+``
 # 🔐 API Security Lab
 
 ## 👤 Author
@@ -106,7 +101,7 @@ Target APIs were sourced from:
 
 ---
 
-## 🖼️ Screenshots
+## 📸 Evidence & Scan Results
 
 ### Aikido Security Platform
 
